@@ -1,7 +1,7 @@
 # TikTok Chat Simulation
 ![](https://img.shields.io/badge/lodash-%5E4.17.21-brightgreen)
 ![](https://img.shields.io/badge/react-%5E10.2.0-yellowgreen)
-![](https://img.shields.io/badge/javascript-%20ES5-orange)
+![](https://img.shields.io/badge/javascript-ES6-orange)
 ![](https://img.shields.io/badge/jquery-%5E3.6.1-green)
 ![](https://img.shields.io/badge/css-%203-lightgrey)
 ![](https://img.shields.io/badge/sass-3.7.4-yellow)
