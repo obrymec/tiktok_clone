@@ -1,0 +1,45 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-17
+* @updated: 2022-09-18
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.1
+*/
+
+// Dependencies.
+@import "tools.scss";
+
+// Messages data section.
+div.active-guest-messages {
+    scroll-behavior: smooth;
+    padding-right: 15px;
+    padding-left: 20px;
+    overflow-y: auto;
+    position: fixed;
+    bottom: 58px;
+    top: 73px;
+    right: 0;
+    left: 0;
+    // Override scrollbar.
+    &::-webkit-scrollbar {
+        width: 10px;
+    } &::-webkit-scrollbar-track {
+        background-color: #fff;
+    } &::-webkit-scrollbar-thumb {
+        background-color: #ddd;
+        border-radius: 10px;
+    }
+    // Message date.
+    div.msg-date {
+        // Date text.
+        label {
+            font-family: "RedHatDisplayRegular";
+            color: rgb(180, 180, 180);
+            font-weight: bold;
+            font-size: 11px;
+        }
+    }
+}

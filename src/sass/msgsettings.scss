@@ -1,0 +1,154 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-19
+* @updated: 2022-09-19
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.1
+*/
+
+// Dependencies.
+@import "tools.scss";
+
+// Close icon design.
+line.closer {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-width: 2px;
+    stroke: #000;
+    fill: none;
+}
+
+// Messages settings background.
+div.msg-settings-bg {
+    background-color: rgba($color: #000, $alpha: 0.4);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    // Messages settings modal.
+    div.msg-settings-modal {
+        background-color: #fff;
+        border-radius: 5px;
+        width: 620px;
+        // Message header.
+        div.msg-settings-header {
+            border-bottom: 1px solid #eee;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            padding: 13px 0 13px 0;
+            display: inline-flex;
+            align-items: center;
+            width: 100%;
+            // Main title.
+            div.msg-set-title {
+                align-items: center;
+                padding-left: 20px;
+                display: flex;
+                width: 100%;
+                // Label representation.
+                label {
+                    font-family: "PublicSansBold";
+                    font-size: 18px;
+                }
+            }
+            // Close icon.
+            div.close-icon {
+                align-items: center;
+                padding-right: 20px;
+                cursor: pointer;
+                display: flex;
+            }
+        }
+        // Message content.
+        div.settings-content {
+            padding: 20px;
+            // Title
+            div.cnt-title-text {
+                // Label representation.
+                label {
+                    font-family: "OxygenRegular";
+                    font-weight: bold;
+                    font-size: 13px;
+                }
+            }
+            // Details section.
+            div.cnt-details-text {
+                margin-top: 6px;
+                // Label representation.
+                label {
+                    font-family: "OxygenRegular";
+                    font-size: 12px;
+                    color: gray;
+                }
+            }
+            // Friends option.
+            div.friends-option {
+                margin-bottom: 15px;
+            }
+            // Friends and no-one options.
+            div.friends-option, div.noone-option {
+                display: inline-flex;
+                align-items: center;
+                // Radio button.
+                input[type=radio] {
+                    accent-color: rgb(255, 0, 100);
+                    margin-left: -0.5px;
+                    height: 25px;
+                    width: 25px;
+                }
+                // Label.
+                label {
+                    font-family: "OxygenRegular";
+                    transform: translateY(2px);
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+            }
+        }
+        // Button section.
+        div.buttons-section {
+            border-top: 1px solid #eee;
+            justify-content: flex-end;
+            padding: 20px 3% 20px 3%;
+            display: inline-flex;
+            width: 94%;
+            gap: 15px;
+            // Cancel button.
+            button#cancel-button {
+                font-family: "PublicSansBold";
+                border: 1px solid #ddd;
+                background-color: #fff;
+                letter-spacing: 1.5px;
+                border-radius: 5px;
+                color: #343434;
+                font-size: 14px;
+                cursor: pointer;
+                outline: none;
+                padding: 8px;
+                width: 160px;
+            }
+            // Save button.
+            button#save-button {
+                font-family: "PublicSansBold";
+                border: 1px solid #ddd;
+                background-color: #eee;
+                letter-spacing: 1.5px;
+                border-radius: 5px;
+                font-size: 14px;
+                cursor: pointer;
+                color: silver;
+                outline: none;
+                padding: 8px;
+                width: 160px;
+            }
+        }
+    }
+}

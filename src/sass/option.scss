@@ -1,0 +1,88 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-07-06
+* @updated: 2022-09-18
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.8
+*/
+
+// Dependencies.
+@import "tools.scss";
+
+// Global theme.
+:root {
+    --option-hovered-color: #f7f7f7;
+    --option-disabled-color: #eee;
+    --option-base-color: gray;
+}
+
+// Option icon data.
+div.option-icon-data {
+    transform: translateY(2px) scale(1.2);
+    // Responsive icon.
+    @include responsive (0, 285px) {
+        transform: translateY(2px) scale(0.9);
+    }
+}
+
+// Disabled option.
+div.option-disabled {
+    background-color: var(--option-disabled-color) !important;
+    pointer-events: none;
+    // Option left and right icon.
+    div.option-left-icon, div.option-right-icon {
+        // Icon.
+        img {
+            filter: brightness(3);
+        }
+    }
+    // Option text.
+    div.option-text {
+        // Label.
+        label {
+            color: var(--option-base-color);
+        }
+    }
+}
+
+// Menu option.
+div.menu-option {
+    transition: background-color 0.3s;
+    background-color: transparent;
+    padding: 12px 2% 12px 6%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    width: 92%;
+    // Option left and right icon.
+    div.option-left-icon, div.option-right-icon {
+        // Label.
+        label {
+            color: var(--option-base-color);
+        }
+    }
+    // Hover.
+    &:hover {
+        background-color: var(--option-hovered-color);
+    }
+    // Option text.
+    div.option-text {
+        margin-left: 12px;
+        width: 100%;
+        // Label text.
+        label {
+            font-family: "RedHatRegular";
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            // Responsive option text.
+            @include responsive (0, 285px) {
+                font-size: 13px;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-07-01
+* @updated: 2022-09-21
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.4
+*/
+@font-face {
+  src: url("../assets/fonts/RedHatRegular.ttf");
+  font-family: "RedHatDisplayRegular"; }
+@font-face {
+  src: url("../assets/fonts/PublicSansBold.ttf");
+  font-family: "PublicSansBold"; }
+@font-face {
+  src: url("../assets/fonts/OxygenRegular.ttf");
+  font-family: "OxygenRegular"; }
+body {
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+label, input::placeholder {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.5px;
+  user-select: none;
+  color: #303030;
+  font-size: 16px; }

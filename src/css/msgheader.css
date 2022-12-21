@@ -1,0 +1,38 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-17
+* @updated: 2022-09-17
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.1
+*/
+div.chat-messages-header {
+  box-shadow: 0 0 1px 1px #eee;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px; }
+  div.chat-messages-header div.active-user-contact {
+    transition: background-color 0.4s;
+    padding: 10px 0 10px 2.5%;
+    display: inline-flex;
+    width: 97.5%; }
+    div.chat-messages-header div.active-user-contact div.active-user-profil img {
+      transform: translateY(2px);
+      display: inline-block;
+      border-radius: 64px;
+      object-fit: cover; }
+    div.chat-messages-header div.active-user-contact div.active-user-data {
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 10px;
+      display: flex;
+      width: 100%; }
+      div.chat-messages-header div.active-user-contact div.active-user-data div.active-username > label {
+        font-family: "RedHatDisplayRegular";
+        font-size: 14px; }
+      div.chat-messages-header div.active-user-contact div.active-user-data div.active-user-label > label {
+        font-family: "OxygenRegular";
+        display: inline-block;
+        margin-top: 3px;
+        font-size: 12px; }

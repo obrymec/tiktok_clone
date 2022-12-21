@@ -1,0 +1,59 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-17
+* @updated: 2022-09-17
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.1
+*/
+div.message-editior {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 1.2% 1.5% 1.2% 1.5%;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  width: 97%;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+  div.message-editior:hover div.msg-editor input {
+    border: 1px solid silver; }
+  div.message-editior:hover div.emoji-icon svg {
+    fill: #646464; }
+  div.message-editior div.msg-editor {
+    width: 100%; }
+    div.message-editior div.msg-editor input {
+      border: 1px solid transparent;
+      background-color: #eee;
+      transition: border 0.4s;
+      padding: 9px 7% 9px 2%;
+      letter-spacing: 1.5px;
+      border-radius: 3px;
+      color: #343434;
+      font-size: 16px;
+      outline: none;
+      width: 91%; }
+      div.message-editior div.msg-editor input::placeholder {
+        font-family: "OxygenRegular";
+        font-size: 12px;
+        color: gray; }
+  div.message-editior div.emoji-icon svg {
+    transform: translate(-33px, -12px);
+    display: inline-block;
+    transition: fill 0.4s;
+    position: absolute;
+    cursor: pointer; }
+  div.message-editior div.sender-icon {
+    transform: rotate(-27deg) translateY(-4px);
+    margin-left: 20px;
+    cursor: pointer; }
+    div.message-editior div.sender-icon:hover svg {
+      fill: #646464; }
+    div.message-editior div.sender-icon svg {
+      transition: fill 0.3s; }

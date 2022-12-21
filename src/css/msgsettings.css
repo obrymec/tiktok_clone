@@ -1,0 +1,111 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-19
+* @updated: 2022-09-19
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.1
+*/
+line.closer {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 2px;
+  stroke: #000;
+  fill: none; }
+
+div.msg-settings-bg {
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0; }
+  div.msg-settings-bg div.msg-settings-modal {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 620px; }
+    div.msg-settings-bg div.msg-settings-modal div.msg-settings-header {
+      border-bottom: 1px solid #eee;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      padding: 13px 0 13px 0;
+      display: inline-flex;
+      align-items: center;
+      width: 100%; }
+      div.msg-settings-bg div.msg-settings-modal div.msg-settings-header div.msg-set-title {
+        align-items: center;
+        padding-left: 20px;
+        display: flex;
+        width: 100%; }
+        div.msg-settings-bg div.msg-settings-modal div.msg-settings-header div.msg-set-title label {
+          font-family: "PublicSansBold";
+          font-size: 18px; }
+      div.msg-settings-bg div.msg-settings-modal div.msg-settings-header div.close-icon {
+        align-items: center;
+        padding-right: 20px;
+        cursor: pointer;
+        display: flex; }
+    div.msg-settings-bg div.msg-settings-modal div.settings-content {
+      padding: 20px; }
+      div.msg-settings-bg div.msg-settings-modal div.settings-content div.cnt-title-text label {
+        font-family: "OxygenRegular";
+        font-weight: bold;
+        font-size: 13px; }
+      div.msg-settings-bg div.msg-settings-modal div.settings-content div.cnt-details-text {
+        margin-top: 6px; }
+        div.msg-settings-bg div.msg-settings-modal div.settings-content div.cnt-details-text label {
+          font-family: "OxygenRegular";
+          font-size: 12px;
+          color: gray; }
+      div.msg-settings-bg div.msg-settings-modal div.settings-content div.friends-option {
+        margin-bottom: 15px; }
+      div.msg-settings-bg div.msg-settings-modal div.settings-content div.friends-option, div.msg-settings-bg div.msg-settings-modal div.settings-content div.noone-option {
+        display: inline-flex;
+        align-items: center; }
+        div.msg-settings-bg div.msg-settings-modal div.settings-content div.friends-option input[type=radio], div.msg-settings-bg div.msg-settings-modal div.settings-content div.noone-option input[type=radio] {
+          accent-color: #ff0064;
+          margin-left: -0.5px;
+          height: 25px;
+          width: 25px; }
+        div.msg-settings-bg div.msg-settings-modal div.settings-content div.friends-option label, div.msg-settings-bg div.msg-settings-modal div.settings-content div.noone-option label {
+          font-family: "OxygenRegular";
+          transform: translateY(2px);
+          display: inline-block;
+          margin-left: 5px; }
+    div.msg-settings-bg div.msg-settings-modal div.buttons-section {
+      border-top: 1px solid #eee;
+      justify-content: flex-end;
+      padding: 20px 3% 20px 3%;
+      display: inline-flex;
+      width: 94%;
+      gap: 15px; }
+      div.msg-settings-bg div.msg-settings-modal div.buttons-section button#cancel-button {
+        font-family: "PublicSansBold";
+        border: 1px solid #ddd;
+        background-color: #fff;
+        letter-spacing: 1.5px;
+        border-radius: 5px;
+        color: #343434;
+        font-size: 14px;
+        cursor: pointer;
+        outline: none;
+        padding: 8px;
+        width: 160px; }
+      div.msg-settings-bg div.msg-settings-modal div.buttons-section button#save-button {
+        font-family: "PublicSansBold";
+        border: 1px solid #ddd;
+        background-color: #eee;
+        letter-spacing: 1.5px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        color: silver;
+        outline: none;
+        padding: 8px;
+        width: 160px; }

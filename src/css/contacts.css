@@ -1,0 +1,45 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-17
+* @updated: 2022-09-19
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.1
+*/
+div.users-contacts {
+  box-shadow: 0 0 6px #ddd;
+  background-color: #fff;
+  border-radius: 8px;
+  height: 100%;
+  width: 23%; }
+  div.users-contacts div.contacts-header {
+    box-shadow: 0 0 1px 1px #eee;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 13px 0 13px 0;
+    display: inline-flex;
+    width: 100%; }
+    div.users-contacts div.contacts-header div.contacts-title {
+      align-items: center;
+      padding-left: 20px;
+      display: flex;
+      width: 100%; }
+      div.users-contacts div.contacts-header div.contacts-title label {
+        font-family: "PublicSansBold";
+        font-size: 18px; }
+    div.users-contacts div.contacts-header div.settings-icon {
+      align-items: center;
+      padding-right: 20px;
+      cursor: pointer;
+      display: flex; }
+      div.users-contacts div.contacts-header div.settings-icon svg {
+        transform: rotate(-30deg); }
+  div.users-contacts div.guests-contacts {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow-y: auto;
+    height: 91.7%; }
+    div.users-contacts div.guests-contacts::-webkit-scrollbar {
+      width: 0; }

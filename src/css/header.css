@@ -1,0 +1,133 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-14
+* @updated: 2022-09-19
+* @framework: React
+* @author: Obrymec
+* @version: 0.2.3
+*/
+path.tiktok-1 {
+  fill: #00f6ef; }
+
+path.tiktok-2 {
+  fill: #ff004f; }
+
+line.plus {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 2px;
+  stroke: #000;
+  fill: none; }
+
+div.global-header {
+  box-shadow: 0 0 1px 1px #eee;
+  background-color: #fff;
+  justify-content: center;
+  display: inline-flex;
+  padding-bottom: 10px;
+  align-items: center;
+  position: relative;
+  padding-top: 10px;
+  width: 100%;
+  z-index: 1;
+  gap: 10%; }
+  div.global-header div.tiktok-img {
+    display: inline-flex;
+    align-items: center; }
+    div.global-header div.tiktok-img div.tiktok-text {
+      transform: translate(-2px, 3.5px); }
+    div.global-header div.tiktok-img div.tiktok-text > label {
+      font-family: "PublicSansBold";
+      font-size: 25px; }
+  div.global-header div.searcher {
+    transform: translate3d(0, 0, 0);
+    justify-content: flex-end;
+    display: inline-flex;
+    align-items: center;
+    width: 26%; }
+    div.global-header div.searcher:hover input {
+      border: 1px solid silver; }
+    div.global-header div.searcher:hover div.clear-icon {
+      opacity: 1; }
+    div.global-header div.searcher:hover div.searcher-icon svg {
+      fill: gray; }
+    div.global-header div.searcher input {
+      border: 1px solid transparent;
+      background-color: #f7f7f7;
+      padding: 10px 25% 10px 6%;
+      transition: border 0.4s;
+      letter-spacing: 1.5px;
+      border-radius: 40px;
+      color: #343434;
+      font-size: 16px;
+      outline: none;
+      width: 69%; }
+      div.global-header div.searcher input::placeholder {
+        font-family: "OxygenRegular";
+        font-size: 12px;
+        color: gray; }
+    div.global-header div.searcher div.menu-dropdown {
+      transform: translate(0, 52px);
+      background-color: #fff;
+      border-radius: 8px;
+      position: fixed;
+      top: 2px;
+      right: 0;
+      left: 0; }
+    div.global-header div.searcher div.clear-icon {
+      transform: translateX(-58px);
+      transition: opacity 0.4s;
+      position: absolute;
+      opacity: 0; }
+      div.global-header div.searcher div.clear-icon svg {
+        transform: translateY(3px);
+        display: inline-block;
+        transition: fill 0.4s;
+        cursor: pointer; }
+    div.global-header div.searcher div.searcher-icon {
+      border-left: 1px solid silver;
+      padding-right: 15px;
+      padding-left: 10px;
+      position: absolute; }
+      div.global-header div.searcher div.searcher-icon svg {
+        transform: translateY(3px);
+        transition: fill 0.4s;
+        display: inline-block;
+        pointer-events: none; }
+  div.global-header section.right-data {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px; }
+    div.global-header section.right-data div.upload-btn {
+      box-shadow: 0 0 0 1.3px #eee;
+      padding: 5px 15px 5px 15px;
+      justify-content: center;
+      display: inline-flex;
+      border-radius: 1.5px;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px; }
+      div.global-header section.right-data div.upload-btn div.add-icon {
+        transform: translateY(1px); }
+      div.global-header section.right-data div.upload-btn div.upload-text > label {
+        font-family: "RedHatDisplayRegular";
+        cursor: pointer; }
+    div.global-header section.right-data div.mail-icon {
+      transform: rotate(-27deg) translateY(-3px);
+      cursor: pointer; }
+    div.global-header section.right-data div.minus-icon {
+      align-items: center;
+      cursor: pointer;
+      display: flex; }
+      div.global-header section.right-data div.minus-icon svg {
+        transform: translateY(1px);
+        display: inline-block; }
+    div.global-header section.right-data div.user-profil {
+      cursor: pointer; }
+      div.global-header section.right-data div.user-profil img {
+        transform: translateY(2px);
+        display: inline-block;
+        border-radius: 64px;
+        object-fit: cover; }

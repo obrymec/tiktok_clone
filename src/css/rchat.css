@@ -1,0 +1,33 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-16
+* @updated: 2022-09-18
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.1
+*/
+div.right-chat-msg {
+  justify-content: flex-end;
+  display: inline-flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%; }
+  div.right-chat-msg div.crblank-space {
+    min-width: 40%; }
+  div.right-chat-msg div.chat-msg-data {
+    margin-right: 10px; }
+    div.right-chat-msg div.chat-msg-data label#chat-text {
+      background-color: #eee;
+      padding: 6px 6px 6px 12px;
+      border: 1px solid #ddd;
+      display: inline-block;
+      border-radius: 6px;
+      line-height: 24px; }
+  div.right-chat-msg div.user-profil {
+    min-height: 32px;
+    min-width: 32px; }
+    div.right-chat-msg div.user-profil img {
+      border-radius: 32px;
+      object-fit: cover; }

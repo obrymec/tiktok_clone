@@ -1,0 +1,59 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-15
+* @updated: 2022-09-18
+* @framework: React
+* @author: Obrymec
+* @version: 0.1.2
+*/
+div.active-contact {
+  background-color: #eee !important;
+  cursor: default !important; }
+  div.active-contact div.guest-name > label {
+    cursor: default !important; }
+  div.active-contact div.chat-label > label {
+    cursor: default !important; }
+  div.active-contact div.msg-date > label {
+    cursor: default !important; }
+
+div.guest-contact {
+  transition: background-color 0.4s;
+  justify-content: center;
+  padding: 6px 10% 6px 6%;
+  display: inline-flex;
+  cursor: pointer;
+  width: 84%; }
+  div.guest-contact:hover {
+    background-color: #f7f7f7; }
+  div.guest-contact div.guest-profil img {
+    transform: translateY(2px);
+    display: inline-block;
+    border-radius: 64px;
+    object-fit: cover; }
+  div.guest-contact div.guest-data {
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    display: flex;
+    width: 100%; }
+    div.guest-contact div.guest-data div.guest-name > label {
+      font-family: "RedHatDisplayRegular";
+      font-size: 13px;
+      cursor: pointer; }
+    div.guest-contact div.guest-data div.bottom-data {
+      display: inline-flex;
+      margin-top: 3px; }
+      div.guest-contact div.guest-data div.bottom-data div.chat-label > label {
+        font-family: "OxygenRegular";
+        cursor: pointer;
+        font-size: 11px;
+        color: gray; }
+      div.guest-contact div.guest-data div.bottom-data div.msg-date > label {
+        font-family: "OxygenRegular";
+        color: #b4b4b4;
+        transform: translateX(10px);
+        display: inline-block;
+        cursor: pointer;
+        font-size: 11px; }

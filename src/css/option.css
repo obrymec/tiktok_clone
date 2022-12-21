@@ -1,0 +1,53 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-07-06
+* @updated: 2022-09-18
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.8
+*/
+:root {
+  --option-hovered-color: #f7f7f7;
+  --option-disabled-color: #eee;
+  --option-base-color: gray; }
+
+div.option-icon-data {
+  transform: translateY(2px) scale(1.2); }
+  @media only screen and (min-width: 0) and (max-width: 285px) {
+    div.option-icon-data {
+      transform: translateY(2px) scale(0.9); } }
+
+div.option-disabled {
+  background-color: var(--option-disabled-color) !important;
+  pointer-events: none; }
+  div.option-disabled div.option-left-icon img, div.option-disabled div.option-right-icon img {
+    filter: brightness(3); }
+  div.option-disabled div.option-text label {
+    color: var(--option-base-color); }
+
+div.menu-option {
+  transition: background-color 0.3s;
+  background-color: transparent;
+  padding: 12px 2% 12px 6%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 92%; }
+  div.menu-option div.option-left-icon label, div.menu-option div.option-right-icon label {
+    color: var(--option-base-color); }
+  div.menu-option:hover {
+    background-color: var(--option-hovered-color); }
+  div.menu-option div.option-text {
+    margin-left: 12px;
+    width: 100%; }
+    div.menu-option div.option-text label {
+      font-family: "RedHatRegular";
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer; }
+      @media only screen and (min-width: 0) and (max-width: 285px) {
+        div.menu-option div.option-text label {
+          font-size: 13px; } }

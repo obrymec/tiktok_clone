@@ -1,0 +1,7 @@
+// Responsive object.
+@mixin responsive ($min-width: 0, $max-width: 0) {
+    // Apply media queries to the target tag.
+    @media only screen and (min-width: $min-width) and (max-width: $max-width) {
+        @content;
+    }
+}

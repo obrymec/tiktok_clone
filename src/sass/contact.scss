@@ -1,0 +1,89 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-09-15
+* @updated: 2022-09-18
+* @framework: React
+* @author: Obrymec
+* @version: 0.1.2
+*/
+
+// Dependencies.
+@import "tools.scss";
+
+// Active user contact design.
+div.active-contact {
+    background-color: #eee !important;
+    cursor: default !important;
+    // Guest name.
+    div.guest-name > label {
+        cursor: default !important;
+    }
+    // Guest label.
+    div.chat-label > label {
+        cursor: default !important;
+    }
+    // Message date.
+    div.msg-date > label {
+        cursor: default !important;
+    }
+}
+
+// Guest chat contact.
+div.guest-contact {
+    transition: background-color 0.4s;
+    justify-content: center;
+    padding: 6px 10% 6px 6%;
+    display: inline-flex;
+    cursor: pointer;
+    width: 84%;
+    &:hover {
+        background-color: #f7f7f7;
+    }
+    // Guest profil.
+    div.guest-profil {
+        // Image.
+        img {
+            transform: translateY(2px);
+            display: inline-block;
+            border-radius: 64px;
+            object-fit: cover;
+        }
+    }
+    // Guest data.
+    div.guest-data {
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+        display: flex;
+        width: 100%;
+        // Guest name.
+        div.guest-name > label {
+            font-family: "RedHatDisplayRegular";
+            font-size: 13px;
+            cursor: pointer;
+        }
+        // Bottom data container.
+        div.bottom-data {
+            display: inline-flex;
+            margin-top: 3px;
+            // Guest label.
+            div.chat-label > label {
+                font-family: "OxygenRegular";
+                cursor: pointer;
+                font-size: 11px;
+                color: gray;
+            }
+            // Message date.
+            div.msg-date > label {
+                font-family: "OxygenRegular";
+                color: rgb(180, 180, 180);
+                transform: translateX(10px);
+                display: inline-block;
+                cursor: pointer;
+                font-size: 11px;
+            }
+        }
+    }
+}

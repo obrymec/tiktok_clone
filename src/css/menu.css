@@ -1,0 +1,15 @@
+/*
+* @organization: Console Art Cybernetic
+* @project: Tiktok Chat Simulation
+* @platform: PC (DESKTOP)
+* @created: 2022-07-28
+* @updated: 2022-09-18
+* @framework: React
+* @author: Obrymec
+* @version: 0.0.2
+*/
+div.menu {
+  box-shadow: 0 0 6px #ddd;
+  border-radius: 8px; }
+  div.menu div.menu-item {
+    border-radius: 8px; }
