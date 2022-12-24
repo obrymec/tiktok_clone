@@ -24,16 +24,10 @@ sudo apt install curl
 
 ### <u>Install nodejs</u>:
 ```sh
-cd ~
-curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
-```
-```sh
-sudo bash /tmp/nodesource_setup.sh
-```
-```sh
-sudo apt install nodejs
-```
-```sh
+cd ~;\
+curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh;\
+sudo bash /tmp/nodesource_setup.sh;\
+sudo apt install nodejs;\
 node -v
 ```
 
