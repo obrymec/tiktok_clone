@@ -1,4 +1,4 @@
-# TikTok Chat Simulation
+# TikTok Clone
 ![](https://img.shields.io/badge/lodash-%5E4.17.21-brightgreen)
 ![](https://img.shields.io/badge/react-%5E10.2.0-yellowgreen)
 ![](https://img.shields.io/badge/javascript-ES6-orange)
