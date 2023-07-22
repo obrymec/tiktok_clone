@@ -45,7 +45,7 @@ sudo yarn global add create-react-app
 
 ### <u>Project cloning</u>:
 ```sh
-git clone git@github.com:obrymec/TikTok-Chat-Simulation.git titktok-chat-simulation/
+git clone git@github.com:obrymec/tiktok_clone.git tiktok/
 ```
 
 ### <u>Install project dependencies</u>:
